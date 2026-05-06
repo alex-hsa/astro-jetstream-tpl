@@ -1,12 +1,11 @@
 ---
 _schema: default
-title: Jetstream | Astro Template for CloudCannon
-description: 'An Astro template built for CloudCannon with visual editing, flexible components, and an exceptional developer experience. Deploy your next project with speed and style.'
+title: Plainstate | Astro Template for CloudCannon
 pageSections:
   - _component: page-sections/heroes/hero-center
     eyebrowIcon: {}
     eyebrowText:
-    heading: Introducing<br /><span class="highlight-text">Jetstream</span>
+    heading: Introducing<br /><span class="highlight-text">Plainstate</span>
     headingSize: 4xl
     subtext: >-
       A new Astro template by CloudCannon, built with our [Astro Component
@@ -16,7 +15,8 @@ pageSections:
       - _component: building-blocks/core-elements/button
         text: Deploy Jetstream on CloudCannon
         hideText: false
-        link: 'https://app.cloudcannon.com/register#sites/connect/github/cloudcannon/jetstream-astro-template'
+        link: >-
+          https://app.cloudcannon.com/register#sites/connect/github/cloudcannon/jetstream-astro-template
         iconName: arrow-up-right
         iconPosition: after
         variant: primary
@@ -24,7 +24,7 @@ pageSections:
       - _component: building-blocks/core-elements/button
         text: Check out the Component Starter
         hideText: false
-        link: 'https://github.com/CloudCannon/astro-component-starter'
+        link: https://github.com/CloudCannon/astro-component-starter
         iconName: arrow-up-right
         iconPosition: after
         variant: tertiary
@@ -60,20 +60,28 @@ pageSections:
     images:
       - source: /src/assets/images/apex.svg
         alt: Apex logo
+        link: ''
       - source: /src/assets/images/aura.svg
         alt: Aura logo
+        link: ''
       - source: /src/assets/images/business2.svg
         alt: Fake Business logo
+        link: ''
       - source: /src/assets/images/businesss.svg
         alt: Vantage logo
+        link: ''
       - source: /src/assets/images/dental.svg
         alt: Align logo
+        link: ''
       - source: /src/assets/images/fake-uni.svg
         alt: Fake University logo
+        link: ''
       - source: /src/assets/images/fintech.svg
         alt: Fintech logo
+        link: ''
       - source: /src/assets/images/medical.svg
         alt: Omnia logo
+        link: ''
     maxContentWidth: 2xl
     paddingVertical: 4xl
     colorScheme: light
@@ -228,14 +236,19 @@ pageSections:
             label: ''
             firstColumnContentSections:
               - _component: building-blocks/core-elements/image
-                id: ''
                 source: /src/assets/images/medi-connect.png
                 alt: Person thinking
+                sizes: '(max-width: 1280px) 100vw, 1280px'
+                widths:
+                  - 640
+                  - 1280
+                  - 2560
                 rounded: false
                 aspectRatio: none
                 positionVertical: center
                 positionHorizontal: center
                 priority: false
+                id: ''
             secondColumnContentSections:
               - _component: building-blocks/core-elements/counter
                 number: 94
@@ -291,14 +304,19 @@ pageSections:
             label: ''
             firstColumnContentSections:
               - _component: building-blocks/core-elements/image
-                id: ''
                 source: /src/assets/images/fin-trust.png
                 alt: Fintrust dashboard
+                sizes: '(max-width: 1280px) 100vw, 1280px'
+                widths:
+                  - 640
+                  - 1280
+                  - 2560
                 rounded: false
                 aspectRatio: none
                 positionVertical: center
                 positionHorizontal: center
                 priority: false
+                id: ''
             secondColumnContentSections:
               - _component: building-blocks/core-elements/counter
                 number: 2.3
@@ -470,4 +488,8 @@ pageSections:
     backgroundColor: highlight-radial-gradient
     contentBackground: false
     rounded: true
+description: >-
+  An Astro template built for CloudCannon with visual editing, flexible
+  components, and an exceptional developer experience. Deploy your next project
+  with speed and style.
 ---
