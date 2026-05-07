@@ -4,17 +4,28 @@ title: All Components
 pageSections:
   - _component: page-sections/heroes/hero-card
     id: heroCard
-    eyebrowIcon: {}
-    heading: 'Card Hero Heading #1'
-    subtext: Card Hero Subtext \#1
+    eyebrowIcon:
+    heading: Card Hero Section Title
+    subtext:
     card:
-      usePost: false
-      post: ''
+      usePost: true
+      post: >-
+        /src/content/blog/five-signs-your-cdn-is-lying-to-you-about-cache-hit-rates.mdx
       eyebrowText: Card Hero Eyebrow
       heading: Card Hero Heading
       subtext: Card Hero Subtext
       buttonSections: []
-      counters: []
+      counters:
+        - counter:
+            number: 100
+            prefix: $
+            suffix: M
+          subtext: Counter Subtext
+        - counter:
+            number: 999
+            prefix: $
+            suffix: M
+          subtext: Counter Subtext
     maxContentWidth: 2xl
     paddingVertical: 4xl
     colorScheme: light
