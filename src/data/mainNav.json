@@ -1,5 +1,5 @@
 {
-  "logoSource": "/src/assets/images/jetstream-logo.svg",
+  "logoSource": "/src/assets/images/apex.svg",
   "logoAlt": "Logo",
   "navData": [
     {
@@ -36,6 +36,11 @@
     {
       "name": "Contact",
       "path": "/contact/",
+      "children": []
+    },
+    {
+      "name": "",
+      "path": "",
       "children": []
     }
   ],
