@@ -3,7 +3,14 @@ _schema: default
 title: Plainstate | Astro Template for CloudCannon
 pageSections:
   - _component: page-sections/heroes/hero-center
-    eyebrowIcon: {}
+    eyebrowIcon:
+      _component: building-blocks/core-elements/icon
+      name: swatch
+      size: 3xl
+      color: brand
+      background: true
+      iconOffset: false
+      alignX: center
     eyebrowText:
     heading: Introducing<br /><span class="highlight-text">Plainstate</span>
     headingSize: 4xl
@@ -58,6 +65,9 @@ pageSections:
       We’ve solved the internet for the world’s most ambitious engineering
       teams.
     images:
+      - source: /src/assets/images/dental.svg
+        alt: Align logo
+        link: ''
       - source: /src/assets/images/apex.svg
         alt: Apex logo
         link: ''
@@ -66,12 +76,6 @@ pageSections:
         link: ''
       - source: /src/assets/images/business2.svg
         alt: Fake Business logo
-        link: ''
-      - source: /src/assets/images/businesss.svg
-        alt: Vantage logo
-        link: ''
-      - source: /src/assets/images/dental.svg
-        alt: Align logo
         link: ''
       - source: /src/assets/images/fake-uni.svg
         alt: Fake University logo
@@ -82,13 +86,16 @@ pageSections:
       - source: /src/assets/images/medical.svg
         alt: Omnia logo
         link: ''
-    maxContentWidth: 2xl
-    paddingVertical: 4xl
+      - source: /src/assets/images/businesss.svg
+        alt: Vantage logo
+        link: ''
+    maxContentWidth: 3xl
+    paddingVertical: md
     colorScheme: light
     backgroundColor: surface-linear-gradient
     contentBackground: false
     verticalOffset:
-      size: 2xl
+      size: md
       direction: front
     rounded: true
   - _component: page-sections/features/feature-grid
@@ -413,7 +420,7 @@ pageSections:
             link: https://cloudcannon.com/templates/jetstream/
             iconName: arrow-right
             iconPosition: after
-            variant: secondary
+            variant: primary
             size: md
           columnSpan: 5
           rowSpan: 1
