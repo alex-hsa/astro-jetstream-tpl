@@ -1,9 +1,9 @@
 ---
 _schema: default
-title:
+title: All Components
 pageSections:
   - _component: page-sections/heroes/hero-card
-    id:
+    id: heroCard
     eyebrowIcon: {}
     heading: 'Card Hero Heading #1'
     subtext: Card Hero Subtext \#1
@@ -20,7 +20,7 @@ pageSections:
     colorScheme: light
     backgroundColor: base
     verticalOffset: {}
-    rounded: false
+    rounded: true
   - _component: page-sections/heroes/hero-center
     id: hero-center
     eyebrowIcon: {}
@@ -58,5 +58,5 @@ pageSections:
     contentBackground: false
     verticalOffset: {}
     rounded: false
-description: ''
+description: This page show all components
 ---
